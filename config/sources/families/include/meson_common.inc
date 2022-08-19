@@ -51,6 +51,11 @@ case $BOARD in
 		BOOTSCRIPT="boot-onecloud.cmd:boot.cmd"
 
 	;;
+	domybox)
+
+		BOOTSCRIPT="boot-domybox.ini:boot.ini"
+
+	;;
 esac
 
 write_uboot_platform()
